@@ -1,5 +1,3 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
 int numOfStudents = int.Parse(Console.ReadLine());
 
 var students = new Dictionary<string, List<double>>();
