@@ -16,7 +16,6 @@ while (true)
 
     string student = inputInfo[1];
 
-
     if (!courses.ContainsKey(courseName))
     {
         courses.Add(courseName, new List<string>());
