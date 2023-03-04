@@ -4,6 +4,7 @@ var parkingUsers = new Dictionary<string, string>();
 for (int i = 0; i < n; i++)
 {
     string[] cmdArg = Console.ReadLine().Split();
+    
     string command = cmdArg[0];
     string user = cmdArg[1];
 
